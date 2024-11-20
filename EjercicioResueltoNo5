@@ -1,0 +1,9 @@
+Suma = float(input("Añade el valor de 1 de la suma",))    #Permite al usuario ingresar el valor 1 de la operación
+X = float(input("Añade el valor 2 de la suma",))          #Permite al usuario ingresar el valor 2 de la operación
+Y = float(input("Añade el valor 3 de la operación",))     #Permite al usuario ingresar el valor 3 de la operación
+
+Suma = Suma + X            #Al valor que tiene la variable Suma le añade el valor de X y actualiza la variable 
+X = X+Y**2                 #Al valor de X le suma la variable Y al cuadrado y actualiza el valor
+Suma = Suma + X/Y          #Realiza la división entre las variables X e Y y les añade la variable Suma
+
+print("El valor de la suma es", Suma)
