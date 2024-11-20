@@ -1,0 +1,6 @@
+Numero = float(input("Ingrese un número",)) #Permite al usuario ingresar el número con el que desea trabajar
+Cuadrado = Numero ** 2                      #Eleva el número ingresado al cuadrado
+Cubo = Numero ** 3                          #Eleva el número ingresado al cubo
+
+print("El valor del número al cuadrado es",Cuadrado)
+print("El valor del número al cubo es",Cubo)
