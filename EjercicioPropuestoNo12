@@ -1,0 +1,11 @@
+HorasTrabajadas = float(input("Ingrese el número de horas trabajadas", )) #Permite al usuario ingresar el número de horas trabajadas
+Salario = float(input("Ingrese el valor de la hora", ))                   #Permite al usuario ingresar el valor de cada hora trabajada
+PorReteFuente = float(input("Ingrese el valor de la retefuente en números decimales, separado por un punto",))   #Permite al usuario ingresar el valor de la retefuente en decimal
+
+SalarioBruto = float(Salario * HorasTrabajadas)
+RetencionFuente = float(SalarioBruto * PorReteFuente)
+SalarioNeto = float(SalarioBruto - RetencionFuente)
+
+print("El valor del salario bruto es ", SalarioBruto)
+print("El valor de la retefuente es ", RetencionFuente)
+print("El valor del salario neto es ", SalarioNeto)
