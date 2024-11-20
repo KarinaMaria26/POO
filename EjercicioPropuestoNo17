@@ -1,0 +1,8 @@
+import math                                 #Importamos la librería math con la cual trabajaremos para el uso de pi
+Radio = float(input("Ingrese el radio", ))  #Permite que el usuario ingrese el valor del radio
+
+AreaCirculo = math.pi*(Radio ** 2)         #Calcula el área de la circunferencia
+Circunferencia = 2 * Radio * math.pi       #Calcula el perímetro de la circunferencia
+
+print("El valor del área del círculo es", AreaCirculo)
+print("El valor del perimetro del circulo es", Circunferencia)
